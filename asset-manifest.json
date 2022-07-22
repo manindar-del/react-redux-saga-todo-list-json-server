@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.08885c06.css",
-    "main.js": "/static/js/main.cdadb8b7.js",
-    "static/js/867.546cf20c.chunk.js": "/static/js/867.546cf20c.chunk.js",
-    "static/js/110.9e66b1e6.chunk.js": "/static/js/110.9e66b1e6.chunk.js",
-    "static/js/180.4200c8ff.chunk.js": "/static/js/180.4200c8ff.chunk.js",
-    "static/js/787.b2ed9412.chunk.js": "/static/js/787.b2ed9412.chunk.js",
-    "static/js/568.98c7650a.chunk.js": "/static/js/568.98c7650a.chunk.js",
-    "index.html": "/index.html",
-    "main.08885c06.css.map": "/static/css/main.08885c06.css.map",
-    "main.cdadb8b7.js.map": "/static/js/main.cdadb8b7.js.map",
-    "867.546cf20c.chunk.js.map": "/static/js/867.546cf20c.chunk.js.map",
-    "110.9e66b1e6.chunk.js.map": "/static/js/110.9e66b1e6.chunk.js.map",
-    "180.4200c8ff.chunk.js.map": "/static/js/180.4200c8ff.chunk.js.map",
-    "787.b2ed9412.chunk.js.map": "/static/js/787.b2ed9412.chunk.js.map",
-    "568.98c7650a.chunk.js.map": "/static/js/568.98c7650a.chunk.js.map"
+    "main.css": "/react-redux-saga-todo-list-json-server/static/css/main.08885c06.css",
+    "main.js": "/react-redux-saga-todo-list-json-server/static/js/main.4b84dd92.js",
+    "static/js/867.546cf20c.chunk.js": "/react-redux-saga-todo-list-json-server/static/js/867.546cf20c.chunk.js",
+    "static/js/110.9e66b1e6.chunk.js": "/react-redux-saga-todo-list-json-server/static/js/110.9e66b1e6.chunk.js",
+    "static/js/180.4200c8ff.chunk.js": "/react-redux-saga-todo-list-json-server/static/js/180.4200c8ff.chunk.js",
+    "static/js/787.b2ed9412.chunk.js": "/react-redux-saga-todo-list-json-server/static/js/787.b2ed9412.chunk.js",
+    "static/js/568.98c7650a.chunk.js": "/react-redux-saga-todo-list-json-server/static/js/568.98c7650a.chunk.js",
+    "index.html": "/react-redux-saga-todo-list-json-server/index.html",
+    "main.08885c06.css.map": "/react-redux-saga-todo-list-json-server/static/css/main.08885c06.css.map",
+    "main.4b84dd92.js.map": "/react-redux-saga-todo-list-json-server/static/js/main.4b84dd92.js.map",
+    "867.546cf20c.chunk.js.map": "/react-redux-saga-todo-list-json-server/static/js/867.546cf20c.chunk.js.map",
+    "110.9e66b1e6.chunk.js.map": "/react-redux-saga-todo-list-json-server/static/js/110.9e66b1e6.chunk.js.map",
+    "180.4200c8ff.chunk.js.map": "/react-redux-saga-todo-list-json-server/static/js/180.4200c8ff.chunk.js.map",
+    "787.b2ed9412.chunk.js.map": "/react-redux-saga-todo-list-json-server/static/js/787.b2ed9412.chunk.js.map",
+    "568.98c7650a.chunk.js.map": "/react-redux-saga-todo-list-json-server/static/js/568.98c7650a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08885c06.css",
-    "static/js/main.cdadb8b7.js"
+    "static/js/main.4b84dd92.js"
   ]
 }
