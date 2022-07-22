@@ -13,7 +13,7 @@ import { TodoQuery } from "../../../Interface/Todo.interface";
 // Get Todo
 function* getTodo({ payload }: { payload: TodoQuery }): any {
   const getTodo = yield getTodoListAPI();
-  // yield put(todoSliceActions.getTodoListAction(getTodo));
+   //yield put(todoSliceActions.getTodoListAction(getTodo));
   yield put(todoSliceAction.setTodo(getTodo))
 }
 

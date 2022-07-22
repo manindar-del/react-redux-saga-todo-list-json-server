@@ -34,7 +34,7 @@ export default function List() {
       <table className="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
+            <th scope="col">ID</th>
             <th scope="col">List</th>
             <th scope="col">Actions</th>
 
