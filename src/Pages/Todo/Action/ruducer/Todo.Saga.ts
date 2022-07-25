@@ -13,15 +13,13 @@ import { TodoQuery } from "../../../Interface/Todo.interface";
 // Get Todo
 function* getTodo({ payload }: { payload: TodoQuery }): any {
   const getTodo = yield getTodoListAPI();
-   //yield put(todoSliceActions.getTodoListAction(getTodo));
-  yield put(todoSliceAction.setTodo(getTodo))
+  //yield put(todoSliceActions.getTodoListAction(getTodo));
+  yield put(todoSliceAction.setTodo(getTodo));
 }
 
 function* getTodoQuery() {
   yield takeEvery(todoSliceAction.getToDo as any, getTodo);
 }
-
-
 
 //Add to do
 function* todoQueryMiddleWare({ payload }: { payload: TodoQuery }): any {
@@ -45,12 +43,10 @@ function* todoDeleteQuery() {
   yield takeEvery(todoSliceAction.deleteTodo as any, todoDeleteQueryMiddleWare);
 }
 
-
 //update
 function* todoUpdateQueryMiddleWare({ payload }: { payload: ITask }): any {
   const itemsUpdate = yield updateTodoAPI(payload);
   yield put(todoSliceActions.setTodoUpdateAction(itemsUpdate));
- 
 }
 
 function* todoUpdateQuery() {
@@ -62,5 +58,4 @@ export default function* todoSaga() {
   yield fork(todoListQuery);
   yield fork(todoDeleteQuery);
   yield fork(todoUpdateQuery);
- 
 }

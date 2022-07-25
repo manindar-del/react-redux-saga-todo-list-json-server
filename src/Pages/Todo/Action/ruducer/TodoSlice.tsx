@@ -10,13 +10,12 @@ const TodoSlice = createSlice({
   },
 
   reducers: {
-    getToDo: (state, { payload }: {payload:TodoQuery}) => {
-    },
+    getToDo: (state, { payload }: { payload: TodoQuery }) => {},
     setTodo: (state, { payload }: { payload: ITask[] }) => {
-      state.list = payload
+      state.list = payload;
     },
 
-    addToDo: (state, { payload }: {payload:ITask}) => {
+    addToDo: (state, { payload }: { payload: ITask }) => {
       state.list = state.list.concat({
         ...payload,
       });
